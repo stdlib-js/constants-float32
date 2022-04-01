@@ -1,0 +1,37 @@
+{
+  "name": "@stdlib/constants-float32",
+  "version": "0.0.0",
+  "description": "Single-precision floating-point mathematical constants.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-float32.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "standard",
+    "library",
+    "lib",
+    "constants",
+    "const",
+    "namespace",
+    "float32",
+    "single",
+    "single-precision",
+    "floating-point",
+    "float",
+    "ieee754"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
