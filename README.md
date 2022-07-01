@@ -24,14 +24,30 @@ limitations under the License.
 
 > Single-precision floating-point mathematical constants.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float32
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@deno/mod.js';
+var constants = require( '@stdlib/constants-float32' );
 ```
 
 #### constants
@@ -78,8 +94,8 @@ var c = constants;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var constants = require( '@stdlib/constants-float32' );
 
 console.log( objectKeys( constants ) );
 ```
@@ -105,7 +121,7 @@ console.log( objectKeys( constants ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -161,36 +177,37 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-float32/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-float32/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float32/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-float32/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float32/main/LICENSE
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/float32/cbrt-eps]: https://github.com/stdlib-js/constants-float32-cbrt-eps/tree/deno
+[@stdlib/constants/float32/cbrt-eps]: https://github.com/stdlib-js/constants-float32-cbrt-eps
 
-[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps/tree/deno
+[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps
 
-[@stdlib/constants/float32/exponent-bias]: https://github.com/stdlib-js/constants-float32-exponent-bias/tree/deno
+[@stdlib/constants/float32/exponent-bias]: https://github.com/stdlib-js/constants-float32-exponent-bias
 
-[@stdlib/constants/float32/max-safe-integer]: https://github.com/stdlib-js/constants-float32-max-safe-integer/tree/deno
+[@stdlib/constants/float32/max-safe-integer]: https://github.com/stdlib-js/constants-float32-max-safe-integer
 
-[@stdlib/constants/float32/max]: https://github.com/stdlib-js/constants-float32-max/tree/deno
+[@stdlib/constants/float32/max]: https://github.com/stdlib-js/constants-float32-max
 
-[@stdlib/constants/float32/min-safe-integer]: https://github.com/stdlib-js/constants-float32-min-safe-integer/tree/deno
+[@stdlib/constants/float32/min-safe-integer]: https://github.com/stdlib-js/constants-float32-min-safe-integer
 
-[@stdlib/constants/float32/ninf]: https://github.com/stdlib-js/constants-float32-ninf/tree/deno
+[@stdlib/constants/float32/ninf]: https://github.com/stdlib-js/constants-float32-ninf
 
-[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes/tree/deno
+[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes
 
-[@stdlib/constants/float32/pinf]: https://github.com/stdlib-js/constants-float32-pinf/tree/deno
+[@stdlib/constants/float32/pinf]: https://github.com/stdlib-js/constants-float32-pinf
 
-[@stdlib/constants/float32/precision]: https://github.com/stdlib-js/constants-float32-precision/tree/deno
+[@stdlib/constants/float32/precision]: https://github.com/stdlib-js/constants-float32-precision
 
-[@stdlib/constants/float32/smallest-normal]: https://github.com/stdlib-js/constants-float32-smallest-normal/tree/deno
+[@stdlib/constants/float32/smallest-normal]: https://github.com/stdlib-js/constants-float32-smallest-normal
 
-[@stdlib/constants/float32/smallest-subnormal]: https://github.com/stdlib-js/constants-float32-smallest-subnormal/tree/deno
+[@stdlib/constants/float32/smallest-subnormal]: https://github.com/stdlib-js/constants-float32-smallest-subnormal
 
-[@stdlib/constants/float32/sqrt-eps]: https://github.com/stdlib-js/constants-float32-sqrt-eps/tree/deno
+[@stdlib/constants/float32/sqrt-eps]: https://github.com/stdlib-js/constants-float32-sqrt-eps
 
 <!-- </toc-links> -->
 
