@@ -35,6 +35,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/constants-float32-abs-mask": "^0.0.x",
     "@stdlib/constants-float32-cbrt-eps": "^0.0.x",
     "@stdlib/constants-float32-eps": "^0.0.x",
     "@stdlib/constants-float32-exponent-bias": "^0.0.x",
@@ -46,6 +47,8 @@
     "@stdlib/constants-float32-num-bytes": "^0.0.x",
     "@stdlib/constants-float32-pinf": "^0.0.x",
     "@stdlib/constants-float32-precision": "^0.0.x",
+    "@stdlib/constants-float32-sign-mask": "^0.0.x",
+    "@stdlib/constants-float32-significand-mask": "^0.0.x",
     "@stdlib/constants-float32-smallest-normal": "^0.0.x",
     "@stdlib/constants-float32-smallest-subnormal": "^0.0.x",
     "@stdlib/constants-float32-sqrt-eps": "^0.0.x",
@@ -61,6 +64,7 @@
     "@stdlib/math-base-special-round": "^0.0.x",
     "@stdlib/math-base-special-sqrt": "^0.0.x",
     "@stdlib/number-ctor": "^0.0.x",
+    "@stdlib/number-float32-base-from-word": "^0.0.x",
     "@stdlib/number-float32-base-to-word": "^0.0.x",
     "@stdlib/number-float64-base-to-float32": "^0.0.x",
     "@stdlib/number-uint32-base-to-binary-string": "^0.0.x",
