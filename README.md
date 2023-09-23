@@ -18,26 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Constants
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Single-precision floating-point mathematical constants.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float32
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { ABS_MASK, CBRT_EPS, EPS, EXPONENT_BIAS, EXPONENT_MASK, MAX, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, NINF, NUM_BYTES, PINF, PRECISION, SIGNIFICAND_MASK, SIGN_MASK, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@esm/index.mjs';
+var constants = require( '@stdlib/constants-float32' );
 ```
 
 #### constants
@@ -87,20 +108,11 @@ var c = constants;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var constants = require( '@stdlib/constants-float32' );
 
 console.log( objectKeys( constants ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -124,7 +136,7 @@ console.log( objectKeys( constants ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -154,8 +166,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-float32.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-float32
 
-[test-image]: https://github.com/stdlib-js/constants-float32/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/constants-float32/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/constants-float32/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/constants-float32/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float32/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float32?branch=main
@@ -186,39 +198,39 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/float32/abs-mask]: https://github.com/stdlib-js/constants-float32-abs-mask/tree/esm
+[@stdlib/constants/float32/abs-mask]: https://github.com/stdlib-js/constants-float32-abs-mask
 
-[@stdlib/constants/float32/cbrt-eps]: https://github.com/stdlib-js/constants-float32-cbrt-eps/tree/esm
+[@stdlib/constants/float32/cbrt-eps]: https://github.com/stdlib-js/constants-float32-cbrt-eps
 
-[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps/tree/esm
+[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps
 
-[@stdlib/constants/float32/exponent-bias]: https://github.com/stdlib-js/constants-float32-exponent-bias/tree/esm
+[@stdlib/constants/float32/exponent-bias]: https://github.com/stdlib-js/constants-float32-exponent-bias
 
-[@stdlib/constants/float32/exponent-mask]: https://github.com/stdlib-js/constants-float32-exponent-mask/tree/esm
+[@stdlib/constants/float32/exponent-mask]: https://github.com/stdlib-js/constants-float32-exponent-mask
 
-[@stdlib/constants/float32/max-safe-integer]: https://github.com/stdlib-js/constants-float32-max-safe-integer/tree/esm
+[@stdlib/constants/float32/max-safe-integer]: https://github.com/stdlib-js/constants-float32-max-safe-integer
 
-[@stdlib/constants/float32/max]: https://github.com/stdlib-js/constants-float32-max/tree/esm
+[@stdlib/constants/float32/max]: https://github.com/stdlib-js/constants-float32-max
 
-[@stdlib/constants/float32/min-safe-integer]: https://github.com/stdlib-js/constants-float32-min-safe-integer/tree/esm
+[@stdlib/constants/float32/min-safe-integer]: https://github.com/stdlib-js/constants-float32-min-safe-integer
 
-[@stdlib/constants/float32/ninf]: https://github.com/stdlib-js/constants-float32-ninf/tree/esm
+[@stdlib/constants/float32/ninf]: https://github.com/stdlib-js/constants-float32-ninf
 
-[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes/tree/esm
+[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes
 
-[@stdlib/constants/float32/pinf]: https://github.com/stdlib-js/constants-float32-pinf/tree/esm
+[@stdlib/constants/float32/pinf]: https://github.com/stdlib-js/constants-float32-pinf
 
-[@stdlib/constants/float32/precision]: https://github.com/stdlib-js/constants-float32-precision/tree/esm
+[@stdlib/constants/float32/precision]: https://github.com/stdlib-js/constants-float32-precision
 
-[@stdlib/constants/float32/sign-mask]: https://github.com/stdlib-js/constants-float32-sign-mask/tree/esm
+[@stdlib/constants/float32/sign-mask]: https://github.com/stdlib-js/constants-float32-sign-mask
 
-[@stdlib/constants/float32/significand-mask]: https://github.com/stdlib-js/constants-float32-significand-mask/tree/esm
+[@stdlib/constants/float32/significand-mask]: https://github.com/stdlib-js/constants-float32-significand-mask
 
-[@stdlib/constants/float32/smallest-normal]: https://github.com/stdlib-js/constants-float32-smallest-normal/tree/esm
+[@stdlib/constants/float32/smallest-normal]: https://github.com/stdlib-js/constants-float32-smallest-normal
 
-[@stdlib/constants/float32/smallest-subnormal]: https://github.com/stdlib-js/constants-float32-smallest-subnormal/tree/esm
+[@stdlib/constants/float32/smallest-subnormal]: https://github.com/stdlib-js/constants-float32-smallest-subnormal
 
-[@stdlib/constants/float32/sqrt-eps]: https://github.com/stdlib-js/constants-float32-sqrt-eps/tree/esm
+[@stdlib/constants/float32/sqrt-eps]: https://github.com/stdlib-js/constants-float32-sqrt-eps
 
 <!-- </toc-links> -->
 
