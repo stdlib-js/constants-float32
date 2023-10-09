@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float32",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Single-precision floating-point mathematical constants.",
   "license": "Apache-2.0",
   "author": {
@@ -36,8 +36,8 @@
   },
   "dependencies": {
     "@stdlib/constants-float32-abs-mask": "^0.1.1",
-    "@stdlib/constants-float32-cbrt-eps": "^0.1.0",
-    "@stdlib/constants-float32-eps": "^0.1.0",
+    "@stdlib/constants-float32-cbrt-eps": "^0.1.1",
+    "@stdlib/constants-float32-eps": "^0.1.1",
     "@stdlib/constants-float32-exponent-bias": "^0.1.1",
     "@stdlib/constants-float32-exponent-mask": "^0.1.1",
     "@stdlib/constants-float32-max": "^0.1.1",
@@ -51,7 +51,7 @@
     "@stdlib/constants-float32-significand-mask": "^0.1.1",
     "@stdlib/constants-float32-smallest-normal": "^0.1.1",
     "@stdlib/constants-float32-smallest-subnormal": "^0.1.1",
-    "@stdlib/constants-float32-sqrt-eps": "^0.1.0",
+    "@stdlib/constants-float32-sqrt-eps": "^0.1.1",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
@@ -64,9 +64,9 @@
     "@stdlib/math-base-special-round": "^0.1.1",
     "@stdlib/math-base-special-sqrt": "^0.1.0",
     "@stdlib/number-ctor": "^0.1.1",
-    "@stdlib/number-float32-base-from-word": "^0.1.0",
-    "@stdlib/number-float32-base-to-word": "^0.1.0",
-    "@stdlib/number-float64-base-to-float32": "^0.1.0",
+    "@stdlib/number-float32-base-from-word": "^0.1.1",
+    "@stdlib/number-float32-base-to-word": "^0.1.1",
+    "@stdlib/number-float64-base-to-float32": "^0.1.1",
     "@stdlib/number-uint32-base-to-binary-string": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
     "@stdlib/utils-keys": "^0.1.0",
