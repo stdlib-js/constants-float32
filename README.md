@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@deno/mod.js';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ABS_MASK, CBRT_EPS, EPS, EXPONENT_BIAS, EXPONENT_MASK, MAX, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, NAN, NINF, NUM_BYTES, PINF, PRECISION, SIGNIFICAND_MASK, SIGN_MASK, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@deno/mod.js';
+import { ABS_MASK, CBRT_EPS, EPS, EXPONENT_BIAS, EXPONENT_MASK, MAX, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, NAN, NINF, NUM_BYTES, PINF, PRECISION, SIGNIFICAND_MASK, SIGN_MASK, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@v0.2.0-deno/mod.js';
 ```
 
 #### constants
@@ -101,7 +101,7 @@ var c = constants;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@deno/mod.js';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@v0.2.0-deno/mod.js';
 
 console.log( objectKeys( constants ) );
 ```
