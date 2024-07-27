@@ -169,8 +169,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-float32.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-float32
 
-[test-image]: https://github.com/stdlib-js/constants-float32/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/constants-float32/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/constants-float32/actions/workflows/test.yml/badge.svg?branch=v0.3.0
+[test-url]: https://github.com/stdlib-js/constants-float32/actions/workflows/test.yml?query=branch:v0.3.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float32/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float32?branch=main
