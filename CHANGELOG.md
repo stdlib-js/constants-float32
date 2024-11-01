@@ -4,11 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-01)
+## Unreleased (2024-11-01)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="constants-float32-half-ln-two-unreleased">
+
+#### [@stdlib/constants/float32/half-ln-two](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/half-ln-two)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1dbc440`](https://github.com/stdlib-js/stdlib/commit/1dbc4400622b58ad2a2ad73d3ebd2c4e5703a0e6) - add `constants/float32/half-ln-two` [(#3010)](https://github.com/stdlib-js/stdlib/pull/3010)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="constants-float32-max-base2-exponent-unreleased">
 
@@ -150,6 +172,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="constants-float32-min-base2-exponent-unreleased">
+
+#### [@stdlib/constants/float32/min-base2-exponent](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/min-base2-exponent)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7ef9d58`](https://github.com/stdlib-js/stdlib/commit/7ef9d588a9b4b80d4a77b0a9eab1dcb61f0a727b) - add `constants/float32/min-base2-exponent` [(#3040)](https://github.com/stdlib-js/stdlib/pull/3040)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="constants-float32-min-base2-exponent-subnormal-unreleased">
 
 #### [@stdlib/constants/float32/min-base2-exponent-subnormal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/min-base2-exponent-subnormal)
@@ -205,6 +249,8 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7ef9d58`](https://github.com/stdlib-js/stdlib/commit/7ef9d588a9b4b80d4a77b0a9eab1dcb61f0a727b) - **feat:** add `constants/float32/min-base2-exponent` [(#3040)](https://github.com/stdlib-js/stdlib/pull/3040) _(by Gunj Joshi)_
+-   [`1dbc440`](https://github.com/stdlib-js/stdlib/commit/1dbc4400622b58ad2a2ad73d3ebd2c4e5703a0e6) - **feat:** add `constants/float32/half-ln-two` [(#3010)](https://github.com/stdlib-js/stdlib/pull/3010) _(by Gunj Joshi)_
 -   [`e6b6ffb`](https://github.com/stdlib-js/stdlib/commit/e6b6ffbbc11a52fe64529527ceb6e0afc2df31d1) - **feat:** add `constants/float32/max-safe-fibonacci` [(#2904)](https://github.com/stdlib-js/stdlib/pull/2904) _(by Gunj Joshi)_
 -   [`511ae22`](https://github.com/stdlib-js/stdlib/commit/511ae22019022653f58464a98034b1821d979714) - **fix:** update folder name [(#2871)](https://github.com/stdlib-js/stdlib/pull/2871) _(by Gunj Joshi)_
 -   [`f4acf70`](https://github.com/stdlib-js/stdlib/commit/f4acf70af14b1fa8603858a6d6d0727b6c190e5a) - **feat:** add `constants/float32/max-safe-nth-fibonacci` [(#2836)](https://github.com/stdlib-js/stdlib/pull/2836) _(by Gunj Joshi)_
