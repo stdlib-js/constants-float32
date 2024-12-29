@@ -4,11 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-29)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="constants-float32-unreleased">
+
+#### [@stdlib/constants/float32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`13981c9`](https://github.com/stdlib-js/stdlib/commit/13981c91225354d2872f01b5a83e0eda41f2697a) - add constants to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="constants-float32-e-unreleased">
 
@@ -47,6 +69,108 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float32-ln-half-unreleased">
+
+#### [@stdlib/constants/float32/ln-half](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/ln-half)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5a4f6ed`](https://github.com/stdlib-js/stdlib/commit/5a4f6edd9eb9e71c3b86e37bebc0d9125efe4931) - add `constants/float32/ln-half` [(#3333)](https://github.com/stdlib-js/stdlib/pull/3333)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3332](https://github.com/stdlib-js/stdlib/issues/3332)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float32-ln-pi-unreleased">
+
+#### [@stdlib/constants/float32/ln-pi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/ln-pi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fc8571d`](https://github.com/stdlib-js/stdlib/commit/fc8571d4e2f7981711a85db47ef8d4acfecfba32) - add `constants/float32/ln-pi` [(#3342)](https://github.com/stdlib-js/stdlib/pull/3342)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3344](https://github.com/stdlib-js/stdlib/issues/3344)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float32-ln-ten-unreleased">
+
+#### [@stdlib/constants/float32/ln-ten](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/ln-ten)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`af07f7b`](https://github.com/stdlib-js/stdlib/commit/af07f7bfbb13427d6f02e40c04d3abe20aac8373) - add `constants/float32/ln-ten` [(#3341)](https://github.com/stdlib-js/stdlib/pull/3341)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3343](https://github.com/stdlib-js/stdlib/issues/3343)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -294,6 +418,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="constants-float32-max-safe-nth-lucas-unreleased">
+
+#### [@stdlib/constants/float32/max-safe-nth-lucas](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/max-safe-nth-lucas)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ed63505`](https://github.com/stdlib-js/stdlib/commit/ed6350530cfae8d685f02987681d7933b83d88b7) - add `constants/float32/max-safe-nth-lucas` [(#3337)](https://github.com/stdlib-js/stdlib/pull/3337)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`eb3a5ea`](https://github.com/stdlib-js/stdlib/commit/eb3a5ea3637fdd5804511809707bc8a14b77abe5) - incorrect macro name in `constants/float32/max-safe-nth-lucas` [(#3904)](https://github.com/stdlib-js/stdlib/pull/3904)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3336](https://github.com/stdlib-js/stdlib/issues/3336)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="constants-float32-min-base10-exponent-unreleased">
 
 #### [@stdlib/constants/float32/min-base10-exponent](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/min-base10-exponent)
@@ -404,6 +572,224 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="constants-float32-sqrt-half-unreleased">
+
+#### [@stdlib/constants/float32/sqrt-half](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/sqrt-half)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f74239a`](https://github.com/stdlib-js/stdlib/commit/f74239a7b9e105a5694432d53bcf912d289c0417) - add constants/float32/sqrt-half [(#3334)](https://github.com/stdlib-js/stdlib/pull/3334)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`d7dc119`](https://github.com/stdlib-js/stdlib/commit/d7dc1197d55a17e6d3f9df1c17b2e13fe57df916) - ensure header files reside in correct directories
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float32-sqrt-half-pi-unreleased">
+
+#### [@stdlib/constants/float32/sqrt-half-pi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/sqrt-half-pi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0e23e02`](https://github.com/stdlib-js/stdlib/commit/0e23e02e9b5087ea5e0d58411a384d5e6185ab20) - add `constants/float32/sqrt-half-pi` [(#3335)](https://github.com/stdlib-js/stdlib/pull/3335)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`d7dc119`](https://github.com/stdlib-js/stdlib/commit/d7dc1197d55a17e6d3f9df1c17b2e13fe57df916) - ensure header files reside in correct directories
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float32-sqrt-phi-unreleased">
+
+#### [@stdlib/constants/float32/sqrt-phi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/sqrt-phi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fdee038`](https://github.com/stdlib-js/stdlib/commit/fdee0385e88ebf6a628d4a7b22df1fcc7ea1a1a2) - add `constants/float32/sqrt-phi` [(#3351)](https://github.com/stdlib-js/stdlib/pull/3351)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`d7dc119`](https://github.com/stdlib-js/stdlib/commit/d7dc1197d55a17e6d3f9df1c17b2e13fe57df916) - ensure header files reside in correct directories
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float32-sqrt-pi-unreleased">
+
+#### [@stdlib/constants/float32/sqrt-pi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/sqrt-pi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7127b56`](https://github.com/stdlib-js/stdlib/commit/7127b567c3fba95eb1e923e763569ba4b58ed262) - add `constants/float32/sqrt-pi` [(#3326)](https://github.com/stdlib-js/stdlib/pull/3326)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3325](https://github.com/stdlib-js/stdlib/issues/3325)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float32-sqrt-three-unreleased">
+
+#### [@stdlib/constants/float32/sqrt-three](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/sqrt-three)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`935a1af`](https://github.com/stdlib-js/stdlib/commit/935a1af66c02a850e34d9e61538559c330beb7e0) - add `constants/float32/sqrt-three` [(#3322)](https://github.com/stdlib-js/stdlib/pull/3322)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`d7dc119`](https://github.com/stdlib-js/stdlib/commit/d7dc1197d55a17e6d3f9df1c17b2e13fe57df916) - ensure header files reside in correct directories
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float32-sqrt-two-unreleased">
+
+#### [@stdlib/constants/float32/sqrt-two](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/sqrt-two)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cf471dc`](https://github.com/stdlib-js/stdlib/commit/cf471dca2b71b8664737d72558ae40764d8bcddb) - add `constants/float32/sqrt-two` [(#3328)](https://github.com/stdlib-js/stdlib/pull/3328)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3327](https://github.com/stdlib-js/stdlib/issues/3327)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float32-sqrt-two-pi-unreleased">
+
+#### [@stdlib/constants/float32/sqrt-two-pi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float32/sqrt-two-pi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5c28376`](https://github.com/stdlib-js/stdlib/commit/5c28376c28904602fd17dec34d0c40b67070d941) - add `constants/float32/sqrt-two-pi` [(#3345)](https://github.com/stdlib-js/stdlib/pull/3345)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -412,9 +798,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 9 issues were closed in this release:
 
-[#3090](https://github.com/stdlib-js/stdlib/issues/3090), [#3093](https://github.com/stdlib-js/stdlib/issues/3093), [#3094](https://github.com/stdlib-js/stdlib/issues/3094)
+[#3090](https://github.com/stdlib-js/stdlib/issues/3090), [#3093](https://github.com/stdlib-js/stdlib/issues/3093), [#3094](https://github.com/stdlib-js/stdlib/issues/3094), [#3325](https://github.com/stdlib-js/stdlib/issues/3325), [#3327](https://github.com/stdlib-js/stdlib/issues/3327), [#3332](https://github.com/stdlib-js/stdlib/issues/3332), [#3336](https://github.com/stdlib-js/stdlib/issues/3336), [#3343](https://github.com/stdlib-js/stdlib/issues/3343), [#3344](https://github.com/stdlib-js/stdlib/issues/3344)
 
 </section>
 
@@ -424,13 +810,15 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Gunj Joshi
 -   Gururaj Gurram
+-   Manvith M
 -   Philipp Burckhardt
+-   Vivek maurya
 
 </section>
 
@@ -442,6 +830,26 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`13981c9`](https://github.com/stdlib-js/stdlib/commit/13981c91225354d2872f01b5a83e0eda41f2697a) - **feat:** add constants to namespace _(by Athan Reines)_
+-   [`8f2808d`](https://github.com/stdlib-js/stdlib/commit/8f2808dec8c8a6508841e86453fba823823efc6c) - **docs:** update related packages sections [(#4302)](https://github.com/stdlib-js/stdlib/pull/4302) _(by stdlib-bot)_
+-   [`7d6450c`](https://github.com/stdlib-js/stdlib/commit/7d6450c671dd91fffbec536a216a76f9e094dad0) - **docs:** update related packages sections [(#4186)](https://github.com/stdlib-js/stdlib/pull/4186) _(by stdlib-bot)_
+-   [`af07f7b`](https://github.com/stdlib-js/stdlib/commit/af07f7bfbb13427d6f02e40c04d3abe20aac8373) - **feat:** add `constants/float32/ln-ten` [(#3341)](https://github.com/stdlib-js/stdlib/pull/3341) _(by Vivek maurya, stdlib-bot)_
+-   [`b20a9e6`](https://github.com/stdlib-js/stdlib/commit/b20a9e616e5d04cfc3e5bc71bd557e15af738050) - **docs:** update related packages sections [(#3936)](https://github.com/stdlib-js/stdlib/pull/3936) _(by stdlib-bot)_
+-   [`eb3a5ea`](https://github.com/stdlib-js/stdlib/commit/eb3a5ea3637fdd5804511809707bc8a14b77abe5) - **fix:** incorrect macro name in `constants/float32/max-safe-nth-lucas` [(#3904)](https://github.com/stdlib-js/stdlib/pull/3904) _(by Aayush Khanna)_
+-   [`5dc51f3`](https://github.com/stdlib-js/stdlib/commit/5dc51f30793f550573cd7dce63d67c87a4099f60) - **docs:** update Markdown stdlib package URLs [(#3899)](https://github.com/stdlib-js/stdlib/pull/3899) _(by stdlib-bot)_
+-   [`5c28376`](https://github.com/stdlib-js/stdlib/commit/5c28376c28904602fd17dec34d0c40b67070d941) - **feat:** add `constants/float32/sqrt-two-pi` [(#3345)](https://github.com/stdlib-js/stdlib/pull/3345) _(by Vivek maurya, stdlib-bot, Athan Reines)_
+-   [`ed63505`](https://github.com/stdlib-js/stdlib/commit/ed6350530cfae8d685f02987681d7933b83d88b7) - **feat:** add `constants/float32/max-safe-nth-lucas` [(#3337)](https://github.com/stdlib-js/stdlib/pull/3337) _(by Aayush Khanna, Athan Reines)_
+-   [`5a4f6ed`](https://github.com/stdlib-js/stdlib/commit/5a4f6edd9eb9e71c3b86e37bebc0d9125efe4931) - **feat:** add `constants/float32/ln-half` [(#3333)](https://github.com/stdlib-js/stdlib/pull/3333) _(by Vivek maurya, Athan Reines, Gunj Joshi, stdlib-bot)_
+-   [`fc8571d`](https://github.com/stdlib-js/stdlib/commit/fc8571d4e2f7981711a85db47ef8d4acfecfba32) - **feat:** add `constants/float32/ln-pi` [(#3342)](https://github.com/stdlib-js/stdlib/pull/3342) _(by Vivek maurya, Athan Reines, stdlib-bot)_
+-   [`d7dc119`](https://github.com/stdlib-js/stdlib/commit/d7dc1197d55a17e6d3f9df1c17b2e13fe57df916) - **fix:** ensure header files reside in correct directories _(by Philipp Burckhardt)_
+-   [`1c56b73`](https://github.com/stdlib-js/stdlib/commit/1c56b737ec018cc818cebf19e5c7947fa684e126) - **docs:** update related packages sections [(#3380)](https://github.com/stdlib-js/stdlib/pull/3380) _(by stdlib-bot)_
+-   [`fdee038`](https://github.com/stdlib-js/stdlib/commit/fdee0385e88ebf6a628d4a7b22df1fcc7ea1a1a2) - **feat:** add `constants/float32/sqrt-phi` [(#3351)](https://github.com/stdlib-js/stdlib/pull/3351) _(by Manvith M, stdlib-bot)_
+-   [`0e23e02`](https://github.com/stdlib-js/stdlib/commit/0e23e02e9b5087ea5e0d58411a384d5e6185ab20) - **feat:** add `constants/float32/sqrt-half-pi` [(#3335)](https://github.com/stdlib-js/stdlib/pull/3335) _(by Manvith M)_
+-   [`935a1af`](https://github.com/stdlib-js/stdlib/commit/935a1af66c02a850e34d9e61538559c330beb7e0) - **feat:** add `constants/float32/sqrt-three` [(#3322)](https://github.com/stdlib-js/stdlib/pull/3322) _(by Manvith M)_
+-   [`f74239a`](https://github.com/stdlib-js/stdlib/commit/f74239a7b9e105a5694432d53bcf912d289c0417) - **feat:** add constants/float32/sqrt-half [(#3334)](https://github.com/stdlib-js/stdlib/pull/3334) _(by Manvith M, stdlib-bot)_
+-   [`7127b56`](https://github.com/stdlib-js/stdlib/commit/7127b567c3fba95eb1e923e763569ba4b58ed262) - **feat:** add `constants/float32/sqrt-pi` [(#3326)](https://github.com/stdlib-js/stdlib/pull/3326) _(by Gururaj Gurram, Gunj Joshi)_
+-   [`cf471dc`](https://github.com/stdlib-js/stdlib/commit/cf471dca2b71b8664737d72558ae40764d8bcddb) - **feat:** add `constants/float32/sqrt-two` [(#3328)](https://github.com/stdlib-js/stdlib/pull/3328) _(by Gururaj Gurram)_
+-   [`92c0d4e`](https://github.com/stdlib-js/stdlib/commit/92c0d4e65a8ffef2a2264ba906cfe8020c483b13) - **docs:** clean-up and use C floats when appropriate _(by Philipp Burckhardt)_
 -   [`19343f5`](https://github.com/stdlib-js/stdlib/commit/19343f5f7a3359b989d091ed31d9e3c64cf89c9c) - **chore:** fix copyright years and disable lint rules _(by Philipp Burckhardt)_
 -   [`31c168c`](https://github.com/stdlib-js/stdlib/commit/31c168c72351f2885bcf7361b9168cefb454f6dc) - **fix:** add missing `f` suffix in `constants/float32/ln-two` [(#3110)](https://github.com/stdlib-js/stdlib/pull/3110) _(by Gunj Joshi)_
 -   [`3e373df`](https://github.com/stdlib-js/stdlib/commit/3e373df5f80a866121754b0475478ff7e135f8ed) - **feat:** add `constants/float32/max-base10-exponent-subnormal` [(#3099)](https://github.com/stdlib-js/stdlib/pull/3099) _(by Aayush Khanna, Philipp Burckhardt)_
