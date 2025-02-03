@@ -35,32 +35,38 @@ limitations under the License.
 
 > Single-precision floating-point mathematical constants.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-float32
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var constants = require( '@stdlib/constants-float32' );
+constants = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var constants = require( 'path/to/vendor/umd/constants-float32/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.constants;
+})();
+</script>
 ```
 
 #### constants
@@ -141,11 +147,21 @@ var c = constants;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var constants = require( '@stdlib/constants-float32' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( objectKeys( constants ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -234,101 +250,101 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/float32/abs-mask]: https://github.com/stdlib-js/constants-float32-abs-mask
+[@stdlib/constants/float32/abs-mask]: https://github.com/stdlib-js/constants-float32-abs-mask/tree/umd
 
-[@stdlib/constants/float32/cbrt-eps]: https://github.com/stdlib-js/constants-float32-cbrt-eps
+[@stdlib/constants/float32/cbrt-eps]: https://github.com/stdlib-js/constants-float32-cbrt-eps/tree/umd
 
-[@stdlib/constants/float32/e]: https://github.com/stdlib-js/constants-float32-e
+[@stdlib/constants/float32/e]: https://github.com/stdlib-js/constants-float32-e/tree/umd
 
-[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps
+[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps/tree/umd
 
-[@stdlib/constants/float32/exponent-bias]: https://github.com/stdlib-js/constants-float32-exponent-bias
+[@stdlib/constants/float32/exponent-bias]: https://github.com/stdlib-js/constants-float32-exponent-bias/tree/umd
 
-[@stdlib/constants/float32/exponent-mask]: https://github.com/stdlib-js/constants-float32-exponent-mask
+[@stdlib/constants/float32/exponent-mask]: https://github.com/stdlib-js/constants-float32-exponent-mask/tree/umd
 
-[@stdlib/constants/float32/fourth-pi]: https://github.com/stdlib-js/constants-float32-fourth-pi
+[@stdlib/constants/float32/fourth-pi]: https://github.com/stdlib-js/constants-float32-fourth-pi/tree/umd
 
-[@stdlib/constants/float32/half-ln-two]: https://github.com/stdlib-js/constants-float32-half-ln-two
+[@stdlib/constants/float32/half-ln-two]: https://github.com/stdlib-js/constants-float32-half-ln-two/tree/umd
 
-[@stdlib/constants/float32/half-pi]: https://github.com/stdlib-js/constants-float32-half-pi
+[@stdlib/constants/float32/half-pi]: https://github.com/stdlib-js/constants-float32-half-pi/tree/umd
 
-[@stdlib/constants/float32/ln-half]: https://github.com/stdlib-js/constants-float32-ln-half
+[@stdlib/constants/float32/ln-half]: https://github.com/stdlib-js/constants-float32-ln-half/tree/umd
 
-[@stdlib/constants/float32/ln-pi]: https://github.com/stdlib-js/constants-float32-ln-pi
+[@stdlib/constants/float32/ln-pi]: https://github.com/stdlib-js/constants-float32-ln-pi/tree/umd
 
-[@stdlib/constants/float32/ln-ten]: https://github.com/stdlib-js/constants-float32-ln-ten
+[@stdlib/constants/float32/ln-ten]: https://github.com/stdlib-js/constants-float32-ln-ten/tree/umd
 
-[@stdlib/constants/float32/ln-two]: https://github.com/stdlib-js/constants-float32-ln-two
+[@stdlib/constants/float32/ln-two]: https://github.com/stdlib-js/constants-float32-ln-two/tree/umd
 
-[@stdlib/constants/float32/max-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float32-max-base10-exponent-subnormal
+[@stdlib/constants/float32/max-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float32-max-base10-exponent-subnormal/tree/umd
 
-[@stdlib/constants/float32/max-base10-exponent]: https://github.com/stdlib-js/constants-float32-max-base10-exponent
+[@stdlib/constants/float32/max-base10-exponent]: https://github.com/stdlib-js/constants-float32-max-base10-exponent/tree/umd
 
-[@stdlib/constants/float32/max-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float32-max-base2-exponent-subnormal
+[@stdlib/constants/float32/max-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float32-max-base2-exponent-subnormal/tree/umd
 
-[@stdlib/constants/float32/max-base2-exponent]: https://github.com/stdlib-js/constants-float32-max-base2-exponent
+[@stdlib/constants/float32/max-base2-exponent]: https://github.com/stdlib-js/constants-float32-max-base2-exponent/tree/umd
 
-[@stdlib/constants/float32/max-safe-fibonacci]: https://github.com/stdlib-js/constants-float32-max-safe-fibonacci
+[@stdlib/constants/float32/max-safe-fibonacci]: https://github.com/stdlib-js/constants-float32-max-safe-fibonacci/tree/umd
 
-[@stdlib/constants/float32/max-safe-integer]: https://github.com/stdlib-js/constants-float32-max-safe-integer
+[@stdlib/constants/float32/max-safe-integer]: https://github.com/stdlib-js/constants-float32-max-safe-integer/tree/umd
 
-[@stdlib/constants/float32/max-safe-nth-factorial]: https://github.com/stdlib-js/constants-float32-max-safe-nth-factorial
+[@stdlib/constants/float32/max-safe-nth-factorial]: https://github.com/stdlib-js/constants-float32-max-safe-nth-factorial/tree/umd
 
-[@stdlib/constants/float32/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float32-max-safe-nth-fibonacci
+[@stdlib/constants/float32/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float32-max-safe-nth-fibonacci/tree/umd
 
-[@stdlib/constants/float32/max-safe-nth-lucas]: https://github.com/stdlib-js/constants-float32-max-safe-nth-lucas
+[@stdlib/constants/float32/max-safe-nth-lucas]: https://github.com/stdlib-js/constants-float32-max-safe-nth-lucas/tree/umd
 
-[@stdlib/constants/float32/max]: https://github.com/stdlib-js/constants-float32-max
+[@stdlib/constants/float32/max]: https://github.com/stdlib-js/constants-float32-max/tree/umd
 
-[@stdlib/constants/float32/min-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float32-min-base10-exponent-subnormal
+[@stdlib/constants/float32/min-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float32-min-base10-exponent-subnormal/tree/umd
 
-[@stdlib/constants/float32/min-base10-exponent]: https://github.com/stdlib-js/constants-float32-min-base10-exponent
+[@stdlib/constants/float32/min-base10-exponent]: https://github.com/stdlib-js/constants-float32-min-base10-exponent/tree/umd
 
-[@stdlib/constants/float32/min-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float32-min-base2-exponent-subnormal
+[@stdlib/constants/float32/min-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float32-min-base2-exponent-subnormal/tree/umd
 
-[@stdlib/constants/float32/min-base2-exponent]: https://github.com/stdlib-js/constants-float32-min-base2-exponent
+[@stdlib/constants/float32/min-base2-exponent]: https://github.com/stdlib-js/constants-float32-min-base2-exponent/tree/umd
 
-[@stdlib/constants/float32/min-safe-integer]: https://github.com/stdlib-js/constants-float32-min-safe-integer
+[@stdlib/constants/float32/min-safe-integer]: https://github.com/stdlib-js/constants-float32-min-safe-integer/tree/umd
 
-[@stdlib/constants/float32/nan]: https://github.com/stdlib-js/constants-float32-nan
+[@stdlib/constants/float32/nan]: https://github.com/stdlib-js/constants-float32-nan/tree/umd
 
-[@stdlib/constants/float32/ninf]: https://github.com/stdlib-js/constants-float32-ninf
+[@stdlib/constants/float32/ninf]: https://github.com/stdlib-js/constants-float32-ninf/tree/umd
 
-[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes
+[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes/tree/umd
 
-[@stdlib/constants/float32/phi]: https://github.com/stdlib-js/constants-float32-phi
+[@stdlib/constants/float32/phi]: https://github.com/stdlib-js/constants-float32-phi/tree/umd
 
-[@stdlib/constants/float32/pi]: https://github.com/stdlib-js/constants-float32-pi
+[@stdlib/constants/float32/pi]: https://github.com/stdlib-js/constants-float32-pi/tree/umd
 
-[@stdlib/constants/float32/pinf]: https://github.com/stdlib-js/constants-float32-pinf
+[@stdlib/constants/float32/pinf]: https://github.com/stdlib-js/constants-float32-pinf/tree/umd
 
-[@stdlib/constants/float32/precision]: https://github.com/stdlib-js/constants-float32-precision
+[@stdlib/constants/float32/precision]: https://github.com/stdlib-js/constants-float32-precision/tree/umd
 
-[@stdlib/constants/float32/sign-mask]: https://github.com/stdlib-js/constants-float32-sign-mask
+[@stdlib/constants/float32/sign-mask]: https://github.com/stdlib-js/constants-float32-sign-mask/tree/umd
 
-[@stdlib/constants/float32/significand-mask]: https://github.com/stdlib-js/constants-float32-significand-mask
+[@stdlib/constants/float32/significand-mask]: https://github.com/stdlib-js/constants-float32-significand-mask/tree/umd
 
-[@stdlib/constants/float32/smallest-normal]: https://github.com/stdlib-js/constants-float32-smallest-normal
+[@stdlib/constants/float32/smallest-normal]: https://github.com/stdlib-js/constants-float32-smallest-normal/tree/umd
 
-[@stdlib/constants/float32/smallest-subnormal]: https://github.com/stdlib-js/constants-float32-smallest-subnormal
+[@stdlib/constants/float32/smallest-subnormal]: https://github.com/stdlib-js/constants-float32-smallest-subnormal/tree/umd
 
-[@stdlib/constants/float32/sqrt-eps]: https://github.com/stdlib-js/constants-float32-sqrt-eps
+[@stdlib/constants/float32/sqrt-eps]: https://github.com/stdlib-js/constants-float32-sqrt-eps/tree/umd
 
-[@stdlib/constants/float32/sqrt-half-pi]: https://github.com/stdlib-js/constants-float32-sqrt-half-pi
+[@stdlib/constants/float32/sqrt-half-pi]: https://github.com/stdlib-js/constants-float32-sqrt-half-pi/tree/umd
 
-[@stdlib/constants/float32/sqrt-half]: https://github.com/stdlib-js/constants-float32-sqrt-half
+[@stdlib/constants/float32/sqrt-half]: https://github.com/stdlib-js/constants-float32-sqrt-half/tree/umd
 
-[@stdlib/constants/float32/sqrt-phi]: https://github.com/stdlib-js/constants-float32-sqrt-phi
+[@stdlib/constants/float32/sqrt-phi]: https://github.com/stdlib-js/constants-float32-sqrt-phi/tree/umd
 
-[@stdlib/constants/float32/sqrt-pi]: https://github.com/stdlib-js/constants-float32-sqrt-pi
+[@stdlib/constants/float32/sqrt-pi]: https://github.com/stdlib-js/constants-float32-sqrt-pi/tree/umd
 
-[@stdlib/constants/float32/sqrt-three]: https://github.com/stdlib-js/constants-float32-sqrt-three
+[@stdlib/constants/float32/sqrt-three]: https://github.com/stdlib-js/constants-float32-sqrt-three/tree/umd
 
-[@stdlib/constants/float32/sqrt-two-pi]: https://github.com/stdlib-js/constants-float32-sqrt-two-pi
+[@stdlib/constants/float32/sqrt-two-pi]: https://github.com/stdlib-js/constants-float32-sqrt-two-pi/tree/umd
 
-[@stdlib/constants/float32/sqrt-two]: https://github.com/stdlib-js/constants-float32-sqrt-two
+[@stdlib/constants/float32/sqrt-two]: https://github.com/stdlib-js/constants-float32-sqrt-two/tree/umd
 
-[@stdlib/constants/float32/two-pi]: https://github.com/stdlib-js/constants-float32-two-pi
+[@stdlib/constants/float32/two-pi]: https://github.com/stdlib-js/constants-float32-two-pi/tree/umd
 
 <!-- </toc-links> -->
 
