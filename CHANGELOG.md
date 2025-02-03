@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-02-03)
 
 <section class="packages">
 
@@ -819,7 +819,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Gururaj Gurram
 -   Manvith M
 -   Philipp Burckhardt
--   Vivek maurya
+-   Vivek Maurya
 
 </section>
 
@@ -831,19 +831,36 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`17b7218`](https://github.com/stdlib-js/stdlib/commit/17b72186405d4627a3d51d38aeebfeff90b4924c) - **docs:** update related packages sections [(#4876)](https://github.com/stdlib-js/stdlib/pull/4876) _(by stdlib-bot)_
+-   [`902977d`](https://github.com/stdlib-js/stdlib/commit/902977d7e637a7dfb1704fc4caa8fc3913d3246d) - **docs:** update related packages sections [(#4825)](https://github.com/stdlib-js/stdlib/pull/4825) _(by stdlib-bot)_
+-   [`4486641`](https://github.com/stdlib-js/stdlib/commit/44866418235df4d9f1e5ec38b918f53f1703b908) - **docs:** update related packages sections [(#4816)](https://github.com/stdlib-js/stdlib/pull/4816) _(by stdlib-bot)_
+-   [`50843c9`](https://github.com/stdlib-js/stdlib/commit/50843c9502e3c9afa2f58d0957248e8ed3bd4609) - **docs:** update related packages sections [(#4808)](https://github.com/stdlib-js/stdlib/pull/4808) _(by stdlib-bot)_
+-   [`318ba82`](https://github.com/stdlib-js/stdlib/commit/318ba8201aedcc62f9717c216666964414be0864) - **docs:** update related packages sections [(#4784)](https://github.com/stdlib-js/stdlib/pull/4784) _(by stdlib-bot)_
+-   [`dc07f0a`](https://github.com/stdlib-js/stdlib/commit/dc07f0a08f9b5d5532881d9eb1269826a037ca2c) - **docs:** update related packages sections [(#4770)](https://github.com/stdlib-js/stdlib/pull/4770) _(by stdlib-bot)_
+-   [`f0db7f5`](https://github.com/stdlib-js/stdlib/commit/f0db7f5956b712e544fb2cd7c1432feaff516008) - **docs:** update related packages sections [(#4728)](https://github.com/stdlib-js/stdlib/pull/4728) _(by stdlib-bot)_
+-   [`dbb338e`](https://github.com/stdlib-js/stdlib/commit/dbb338e80336515e9f7ef602188985bbbe9b9010) - **docs:** update related packages sections [(#4690)](https://github.com/stdlib-js/stdlib/pull/4690) _(by stdlib-bot)_
+-   [`114115a`](https://github.com/stdlib-js/stdlib/commit/114115ac45b40f9c22064a8e49e99c2aee43ecb2) - **docs:** update related packages sections [(#4655)](https://github.com/stdlib-js/stdlib/pull/4655) _(by stdlib-bot)_
+-   [`769b921`](https://github.com/stdlib-js/stdlib/commit/769b921be1ac5285f0becdaaae27cace376ee124) - **docs:** update related packages sections [(#4638)](https://github.com/stdlib-js/stdlib/pull/4638) _(by stdlib-bot, Athan Reines)_
+-   [`563a4f8`](https://github.com/stdlib-js/stdlib/commit/563a4f826ab757636ae08094fc6f62746042da4b) - **docs:** update related packages sections [(#4594)](https://github.com/stdlib-js/stdlib/pull/4594) _(by stdlib-bot)_
+-   [`f231799`](https://github.com/stdlib-js/stdlib/commit/f231799e1d40cfff7ceb79a6074166a08c4ba072) - **docs:** update related packages sections [(#4545)](https://github.com/stdlib-js/stdlib/pull/4545) _(by stdlib-bot)_
+-   [`a3301a2`](https://github.com/stdlib-js/stdlib/commit/a3301a2bde94e8c07888a1db589d189e9ecfc347) - **docs:** update related packages sections [(#4517)](https://github.com/stdlib-js/stdlib/pull/4517) _(by stdlib-bot)_
+-   [`bc279b5`](https://github.com/stdlib-js/stdlib/commit/bc279b5f310d68ca939e8c03de09ff23fbc4ae68) - **docs:** update related packages sections [(#4485)](https://github.com/stdlib-js/stdlib/pull/4485) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`14706e4`](https://github.com/stdlib-js/stdlib/commit/14706e4baccbf3b827e12cae163d7b98a96b0fa8) - **docs:** update related packages sections [(#4445)](https://github.com/stdlib-js/stdlib/pull/4445) _(by stdlib-bot)_
+-   [`e4a53d5`](https://github.com/stdlib-js/stdlib/commit/e4a53d5816f5918f7c7fc5135dce21d676835eca) - **docs:** update related packages sections [(#4399)](https://github.com/stdlib-js/stdlib/pull/4399) _(by stdlib-bot)_
+-   [`4301694`](https://github.com/stdlib-js/stdlib/commit/43016945387e02d6396d33cb7134c62c977b7fd8) - **docs:** update related packages sections [(#4362)](https://github.com/stdlib-js/stdlib/pull/4362) _(by stdlib-bot)_
 -   [`cdf5e79`](https://github.com/stdlib-js/stdlib/commit/cdf5e79d125ce5da53cfa18df6ffbe2df5fe4d9f) - **docs:** update namespace table of contents [(#4365)](https://github.com/stdlib-js/stdlib/pull/4365) _(by stdlib-bot)_
 -   [`25d8240`](https://github.com/stdlib-js/stdlib/commit/25d8240f51b27bd0ee85ca3ef70c89fd3778b902) - **feat:** update namespace TypeScript declarations [(#4363)](https://github.com/stdlib-js/stdlib/pull/4363) _(by stdlib-bot)_
 -   [`13981c9`](https://github.com/stdlib-js/stdlib/commit/13981c91225354d2872f01b5a83e0eda41f2697a) - **feat:** add constants to namespace _(by Athan Reines)_
 -   [`8f2808d`](https://github.com/stdlib-js/stdlib/commit/8f2808dec8c8a6508841e86453fba823823efc6c) - **docs:** update related packages sections [(#4302)](https://github.com/stdlib-js/stdlib/pull/4302) _(by stdlib-bot)_
 -   [`7d6450c`](https://github.com/stdlib-js/stdlib/commit/7d6450c671dd91fffbec536a216a76f9e094dad0) - **docs:** update related packages sections [(#4186)](https://github.com/stdlib-js/stdlib/pull/4186) _(by stdlib-bot)_
--   [`af07f7b`](https://github.com/stdlib-js/stdlib/commit/af07f7bfbb13427d6f02e40c04d3abe20aac8373) - **feat:** add `constants/float32/ln-ten` [(#3341)](https://github.com/stdlib-js/stdlib/pull/3341) _(by Vivek maurya, stdlib-bot)_
+-   [`af07f7b`](https://github.com/stdlib-js/stdlib/commit/af07f7bfbb13427d6f02e40c04d3abe20aac8373) - **feat:** add `constants/float32/ln-ten` [(#3341)](https://github.com/stdlib-js/stdlib/pull/3341) _(by Vivek Maurya, stdlib-bot)_
 -   [`b20a9e6`](https://github.com/stdlib-js/stdlib/commit/b20a9e616e5d04cfc3e5bc71bd557e15af738050) - **docs:** update related packages sections [(#3936)](https://github.com/stdlib-js/stdlib/pull/3936) _(by stdlib-bot)_
 -   [`eb3a5ea`](https://github.com/stdlib-js/stdlib/commit/eb3a5ea3637fdd5804511809707bc8a14b77abe5) - **fix:** incorrect macro name in `constants/float32/max-safe-nth-lucas` [(#3904)](https://github.com/stdlib-js/stdlib/pull/3904) _(by Aayush Khanna)_
 -   [`5dc51f3`](https://github.com/stdlib-js/stdlib/commit/5dc51f30793f550573cd7dce63d67c87a4099f60) - **docs:** update Markdown stdlib package URLs [(#3899)](https://github.com/stdlib-js/stdlib/pull/3899) _(by stdlib-bot)_
--   [`5c28376`](https://github.com/stdlib-js/stdlib/commit/5c28376c28904602fd17dec34d0c40b67070d941) - **feat:** add `constants/float32/sqrt-two-pi` [(#3345)](https://github.com/stdlib-js/stdlib/pull/3345) _(by Vivek maurya, stdlib-bot, Athan Reines)_
+-   [`5c28376`](https://github.com/stdlib-js/stdlib/commit/5c28376c28904602fd17dec34d0c40b67070d941) - **feat:** add `constants/float32/sqrt-two-pi` [(#3345)](https://github.com/stdlib-js/stdlib/pull/3345) _(by Vivek Maurya, stdlib-bot, Athan Reines)_
 -   [`ed63505`](https://github.com/stdlib-js/stdlib/commit/ed6350530cfae8d685f02987681d7933b83d88b7) - **feat:** add `constants/float32/max-safe-nth-lucas` [(#3337)](https://github.com/stdlib-js/stdlib/pull/3337) _(by Aayush Khanna, Athan Reines)_
--   [`5a4f6ed`](https://github.com/stdlib-js/stdlib/commit/5a4f6edd9eb9e71c3b86e37bebc0d9125efe4931) - **feat:** add `constants/float32/ln-half` [(#3333)](https://github.com/stdlib-js/stdlib/pull/3333) _(by Vivek maurya, Athan Reines, Gunj Joshi, stdlib-bot)_
--   [`fc8571d`](https://github.com/stdlib-js/stdlib/commit/fc8571d4e2f7981711a85db47ef8d4acfecfba32) - **feat:** add `constants/float32/ln-pi` [(#3342)](https://github.com/stdlib-js/stdlib/pull/3342) _(by Vivek maurya, Athan Reines, stdlib-bot)_
+-   [`5a4f6ed`](https://github.com/stdlib-js/stdlib/commit/5a4f6edd9eb9e71c3b86e37bebc0d9125efe4931) - **feat:** add `constants/float32/ln-half` [(#3333)](https://github.com/stdlib-js/stdlib/pull/3333) _(by Vivek Maurya, Athan Reines, Gunj Joshi, stdlib-bot)_
+-   [`fc8571d`](https://github.com/stdlib-js/stdlib/commit/fc8571d4e2f7981711a85db47ef8d4acfecfba32) - **feat:** add `constants/float32/ln-pi` [(#3342)](https://github.com/stdlib-js/stdlib/pull/3342) _(by Vivek Maurya, Athan Reines, stdlib-bot)_
 -   [`d7dc119`](https://github.com/stdlib-js/stdlib/commit/d7dc1197d55a17e6d3f9df1c17b2e13fe57df916) - **fix:** ensure header files reside in correct directories _(by Philipp Burckhardt)_
 -   [`1c56b73`](https://github.com/stdlib-js/stdlib/commit/1c56b737ec018cc818cebf19e5c7947fa684e126) - **docs:** update related packages sections [(#3380)](https://github.com/stdlib-js/stdlib/pull/3380) _(by stdlib-bot)_
 -   [`fdee038`](https://github.com/stdlib-js/stdlib/commit/fdee0385e88ebf6a628d4a7b22df1fcc7ea1a1a2) - **feat:** add `constants/float32/sqrt-phi` [(#3351)](https://github.com/stdlib-js/stdlib/pull/3351) _(by Manvith M, stdlib-bot)_
