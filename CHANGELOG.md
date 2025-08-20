@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-08-20)
 
 <section class="features">
 
 ### Features
 
+-   [`37446e4`](https://github.com/stdlib-js/stdlib/commit/37446e44fbb830ab833c7786c7da13b2eaea27d5) - add constants to `float32` namespace
 -   [`ba45bb5`](https://github.com/stdlib-js/stdlib/commit/ba45bb5784a790f936aa504978b5cbe3878f5752) - add `constants/float32/max-nth-double-factorial`
 -   [`b4a5ede`](https://github.com/stdlib-js/stdlib/commit/b4a5ede4150565c8d410d8e114e6d182af4231c3) - add `constants/float32/max-nth-factorial`
 -   [`0d59526`](https://github.com/stdlib-js/stdlib/commit/0d59526ec7c6746cb57e7ffcab2f197769caafb6) - add `constants/float32/max-safe-lucas` [(#6374)](https://github.com/stdlib-js/stdlib/pull/6374)
@@ -99,6 +100,9 @@ A total of 14 issues were closed in this release:
 
 <details>
 
+-   [`37446e4`](https://github.com/stdlib-js/stdlib/commit/37446e44fbb830ab833c7786c7da13b2eaea27d5) - **feat:** add constants to `float32` namespace _(by Philipp Burckhardt)_
+-   [`f9651e6`](https://github.com/stdlib-js/stdlib/commit/f9651e6411b4ebd3c95dcc6b46c02e6d5be009fa) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`2c927e4`](https://github.com/stdlib-js/stdlib/commit/2c927e403da0ed8841b6ce19296262a88c9856e0) - **docs:** fix example code in TS declaration files _(by Philipp Burckhardt)_
 -   [`46ff8ea`](https://github.com/stdlib-js/stdlib/commit/46ff8ea7761ae438c4718681c5890f146fb0985e) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`4b68ef4`](https://github.com/stdlib-js/stdlib/commit/4b68ef463823ebbe3d4bede1629c04ca00a6a19f) - **docs:** remove references section _(by Karan Anand)_
 -   [`cf54782`](https://github.com/stdlib-js/stdlib/commit/cf547821b6bf3dff9f59d177eb99394c70402882) - **fix:** rename constant to follow `float32` naming conventions _(by Karan Anand)_
