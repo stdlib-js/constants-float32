@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-20)
+## Unreleased (2025-09-06)
 
 <section class="features">
 
@@ -100,6 +100,7 @@ A total of 14 issues were closed in this release:
 
 <details>
 
+-   [`b44e0a7`](https://github.com/stdlib-js/stdlib/commit/b44e0a71e52944270193e56c6cff4507bb085144) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
 -   [`37446e4`](https://github.com/stdlib-js/stdlib/commit/37446e44fbb830ab833c7786c7da13b2eaea27d5) - **feat:** add constants to `float32` namespace _(by Philipp Burckhardt)_
 -   [`f9651e6`](https://github.com/stdlib-js/stdlib/commit/f9651e6411b4ebd3c95dcc6b46c02e6d5be009fa) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`2c927e4`](https://github.com/stdlib-js/stdlib/commit/2c927e403da0ed8841b6ce19296262a88c9856e0) - **docs:** fix example code in TS declaration files _(by Philipp Burckhardt)_
