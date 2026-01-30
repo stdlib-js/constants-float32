@@ -2,14 +2,16 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.4.0">
 
-## Unreleased (2025-11-07)
+## 0.4.0 (2026-01-30)
 
 <section class="features">
 
 ### Features
 
+-   [`939e2d5`](https://github.com/stdlib-js/stdlib/commit/939e2d5e564a3f4015135894e4764d44e97b76ce) - add `constants/float32/num-exponent-bits` [(#9551)](https://github.com/stdlib-js/stdlib/pull/9551)
+-   [`fea0656`](https://github.com/stdlib-js/stdlib/commit/fea0656961ebe7b36ce35e6f13145b9c4d4c975d) - add `constants/float32/glaisher-kinkelin` [(#6145)](https://github.com/stdlib-js/stdlib/pull/6145)
 -   [`6d30bc1`](https://github.com/stdlib-js/stdlib/commit/6d30bc1b30f336c04a75fd66359d35b33d3927d9) - update `constants/float32` TypeScript declarations
 -   [`37446e4`](https://github.com/stdlib-js/stdlib/commit/37446e44fbb830ab833c7786c7da13b2eaea27d5) - add constants to `float32` namespace
 -   [`ba45bb5`](https://github.com/stdlib-js/stdlib/commit/ba45bb5784a790f936aa504978b5cbe3878f5752) - add `constants/float32/max-nth-double-factorial`
@@ -66,6 +68,7 @@
 
 ### Bug Fixes
 
+-   [`7251add`](https://github.com/stdlib-js/stdlib/commit/7251add18b81221e293930e6197d8d359791940a) - address typo in variable name [(#8888)](https://github.com/stdlib-js/stdlib/pull/8888)
 -   [`cf54782`](https://github.com/stdlib-js/stdlib/commit/cf547821b6bf3dff9f59d177eb99394c70402882) - rename constant to follow `float32` naming conventions
 -   [`9a41c60`](https://github.com/stdlib-js/stdlib/commit/9a41c60577db195a819cbc161bf41961343f7cfb) - correct `FLOAT32_GAMMA_LANCZOS_G`
 -   [`8ce04f0`](https://github.com/stdlib-js/stdlib/commit/8ce04f0e2e054342e76a16f584de929b15c93f9f) - correct `FLOAT32_MAX_SAFE_NTH_DOUBLE_FACTORIAL`
@@ -87,9 +90,9 @@
 
 ### Closed Issues
 
-A total of 15 issues were closed in this release:
+A total of 17 issues were closed in this release:
 
-[#3090](https://github.com/stdlib-js/stdlib/issues/3090), [#3093](https://github.com/stdlib-js/stdlib/issues/3093), [#3094](https://github.com/stdlib-js/stdlib/issues/3094), [#3325](https://github.com/stdlib-js/stdlib/issues/3325), [#3327](https://github.com/stdlib-js/stdlib/issues/3327), [#3332](https://github.com/stdlib-js/stdlib/issues/3332), [#3336](https://github.com/stdlib-js/stdlib/issues/3336), [#3343](https://github.com/stdlib-js/stdlib/issues/3343), [#3344](https://github.com/stdlib-js/stdlib/issues/3344), [#6050](https://github.com/stdlib-js/stdlib/issues/6050), [#6070](https://github.com/stdlib-js/stdlib/issues/6070), [#6072](https://github.com/stdlib-js/stdlib/issues/6072), [#6076](https://github.com/stdlib-js/stdlib/issues/6076), [#6097](https://github.com/stdlib-js/stdlib/issues/6097), [#8200](https://github.com/stdlib-js/stdlib/issues/8200)
+[#3090](https://github.com/stdlib-js/stdlib/issues/3090), [#3093](https://github.com/stdlib-js/stdlib/issues/3093), [#3094](https://github.com/stdlib-js/stdlib/issues/3094), [#3325](https://github.com/stdlib-js/stdlib/issues/3325), [#3327](https://github.com/stdlib-js/stdlib/issues/3327), [#3332](https://github.com/stdlib-js/stdlib/issues/3332), [#3336](https://github.com/stdlib-js/stdlib/issues/3336), [#3343](https://github.com/stdlib-js/stdlib/issues/3343), [#3344](https://github.com/stdlib-js/stdlib/issues/3344), [#6050](https://github.com/stdlib-js/stdlib/issues/6050), [#6070](https://github.com/stdlib-js/stdlib/issues/6070), [#6072](https://github.com/stdlib-js/stdlib/issues/6072), [#6076](https://github.com/stdlib-js/stdlib/issues/6076), [#6097](https://github.com/stdlib-js/stdlib/issues/6097), [#8200](https://github.com/stdlib-js/stdlib/issues/8200), [#9334](https://github.com/stdlib-js/stdlib/issues/9334), [#9550](https://github.com/stdlib-js/stdlib/issues/9550)
 
 </section>
 
@@ -101,6 +104,16 @@ A total of 15 issues were closed in this release:
 
 <details>
 
+-   [`939e2d5`](https://github.com/stdlib-js/stdlib/commit/939e2d5e564a3f4015135894e4764d44e97b76ce) - **feat:** add `constants/float32/num-exponent-bits` [(#9551)](https://github.com/stdlib-js/stdlib/pull/9551) _(by Shubham, Athan Reines, Neeraj Pathak)_
+-   [`8c61391`](https://github.com/stdlib-js/stdlib/commit/8c613911043f76c6b41f0d3943163cd0237578f3) - **chore:** fix JavaScript lint errors [(#9337)](https://github.com/stdlib-js/stdlib/pull/9337) _(by DivitJain26, Athan Reines)_
+-   [`6a11b5d`](https://github.com/stdlib-js/stdlib/commit/6a11b5d1d4f6b4752865d25d5ae3f937236efb3c) - **docs:** fix note _(by Athan Reines)_
+-   [`ae4e7fc`](https://github.com/stdlib-js/stdlib/commit/ae4e7fc708b4d447b1a9b793990b74da5ace3518) - **docs:** fix desc _(by Athan Reines)_
+-   [`f8b1f0b`](https://github.com/stdlib-js/stdlib/commit/f8b1f0bf51df7eb96e04b06853b0bc0e0a0f2cf7) - **docs:** fix desc _(by Athan Reines)_
+-   [`64a30aa`](https://github.com/stdlib-js/stdlib/commit/64a30aa6bfb2915ddbbe8781c0b8279ad19077fc) - **docs:** fix desc _(by Athan Reines)_
+-   [`09bf08d`](https://github.com/stdlib-js/stdlib/commit/09bf08d28a3ac34b2957e275b7e380f9331ed420) - **docs:** fix desc _(by Athan Reines)_
+-   [`7251add`](https://github.com/stdlib-js/stdlib/commit/7251add18b81221e293930e6197d8d359791940a) - **fix:** address typo in variable name [(#8888)](https://github.com/stdlib-js/stdlib/pull/8888) _(by Neeraj Pathak)_
+-   [`29e738e`](https://github.com/stdlib-js/stdlib/commit/29e738ee833defc955ae61c3c7d5334b5973d40f) - **docs:** fix return annotation _(by Athan Reines)_
+-   [`fea0656`](https://github.com/stdlib-js/stdlib/commit/fea0656961ebe7b36ce35e6f13145b9c4d4c975d) - **feat:** add `constants/float32/glaisher-kinkelin` [(#6145)](https://github.com/stdlib-js/stdlib/pull/6145) _(by Neeraj Pathak, stdlib-bot)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`345429d`](https://github.com/stdlib-js/stdlib/commit/345429db65e8f31d94686b07f664a065a763f12f) - **chore:** fix JavaScript lint errors [(#8220)](https://github.com/stdlib-js/stdlib/pull/8220) _(by Jenish, Athan Reines)_
 -   [`6d30bc1`](https://github.com/stdlib-js/stdlib/commit/6d30bc1b30f336c04a75fd66359d35b33d3927d9) - **feat:** update `constants/float32` TypeScript declarations _(by Philipp Burckhardt)_
@@ -212,10 +225,11 @@ A total of 15 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 13 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   DivitJain26
 -   Gunj Joshi
 -   Gururaj Gurram
 -   Harsh Yadav
@@ -224,6 +238,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 -   Manvith M
 -   Neeraj Pathak
 -   Philipp Burckhardt
+-   Shubham
 -   Vivek Maurya
 
 </section>
