@@ -2,6 +2,64 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-29)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`d65bf73`](https://github.com/stdlib-js/stdlib/commit/d65bf7356a9f65e0e512ac1a6809e731528a09a9) - rename incorrect manifest file name in `constants/float32/max-ln` [(#10167)](https://github.com/stdlib-js/stdlib/pull/10167)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#10166](https://github.com/stdlib-js/stdlib/issues/10166)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`8101713`](https://github.com/stdlib-js/stdlib/commit/810171368ca80b1d10b4782987cb509a5be2c869) - **docs:** add missing C examples sections in `constants/float32` README files _(by Philipp Burckhardt)_
+-   [`d65bf73`](https://github.com/stdlib-js/stdlib/commit/d65bf7356a9f65e0e512ac1a6809e731528a09a9) - **fix:** rename incorrect manifest file name in `constants/float32/max-ln` [(#10167)](https://github.com/stdlib-js/stdlib/pull/10167) _(by Shubham)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Shubham
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-08)
