@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-29)
+## Unreleased (2026-05-05)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c2b92b4`](https://github.com/stdlib-js/stdlib/commit/c2b92b4e7c4840bb859808dc0dacd97833019549) - **chore:** propagate fixes to sibling packages [(#11892)](https://github.com/stdlib-js/stdlib/pull/11892) _(by Philipp Burckhardt)_
 -   [`8101713`](https://github.com/stdlib-js/stdlib/commit/810171368ca80b1d10b4782987cb509a5be2c869) - **docs:** add missing C examples sections in `constants/float32` README files _(by Philipp Burckhardt)_
 -   [`d65bf73`](https://github.com/stdlib-js/stdlib/commit/d65bf7356a9f65e0e512ac1a6809e731528a09a9) - **fix:** rename incorrect manifest file name in `constants/float32/max-ln` [(#10167)](https://github.com/stdlib-js/stdlib/pull/10167) _(by Shubham)_
 
