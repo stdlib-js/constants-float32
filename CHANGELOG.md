@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-05)
+## Unreleased (2026-06-13)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`8879b1d`](https://github.com/stdlib-js/stdlib/commit/8879b1d32513bce3f1cc083787d3ca504f7673a4) - **docs:** tidy doc and C macro drift in `@stdlib/constants-float32` [(#12432)](https://github.com/stdlib-js/stdlib/pull/12432) _(by Philipp Burckhardt)_
+-   [`e7f93b6`](https://github.com/stdlib-js/stdlib/commit/e7f93b6d4af09ad035409619bd4c3e97b8a0800f) - **chore:** correct float64 keyword leftovers in `@stdlib/constants-float32` packages [(#11964)](https://github.com/stdlib-js/stdlib/pull/11964) _(by Philipp Burckhardt)_
 -   [`c2b92b4`](https://github.com/stdlib-js/stdlib/commit/c2b92b4e7c4840bb859808dc0dacd97833019549) - **chore:** propagate fixes to sibling packages [(#11892)](https://github.com/stdlib-js/stdlib/pull/11892) _(by Philipp Burckhardt)_
 -   [`8101713`](https://github.com/stdlib-js/stdlib/commit/810171368ca80b1d10b4782987cb509a5be2c869) - **docs:** add missing C examples sections in `constants/float32` README files _(by Philipp Burckhardt)_
 -   [`d65bf73`](https://github.com/stdlib-js/stdlib/commit/d65bf7356a9f65e0e512ac1a6809e731528a09a9) - **fix:** rename incorrect manifest file name in `constants/float32/max-ln` [(#10167)](https://github.com/stdlib-js/stdlib/pull/10167) _(by Shubham)_
