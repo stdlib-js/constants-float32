@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-13)
+## Unreleased (2026-07-30)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`d743f2c`](https://github.com/stdlib-js/stdlib/commit/d743f2c4da7566ebebe2e35cc953a3897c7e2570) - **docs:** rename variable [(#13469)](https://github.com/stdlib-js/stdlib/pull/13469) _(by Philipp Burckhardt)_
+-   [`e478830`](https://github.com/stdlib-js/stdlib/commit/e478830dbde462b7feb1d37b4e44a384d2a28c91) - **test:** fix precision qualifier in test descriptions [(#13172)](https://github.com/stdlib-js/stdlib/pull/13172) _(by Philipp Burckhardt)_
+-   [`75fa3bf`](https://github.com/stdlib-js/stdlib/commit/75fa3bfd4969f4453369d4f5d8e32be7ec32e8cd) - **docs:** update descriptions and example [(#13059)](https://github.com/stdlib-js/stdlib/pull/13059) _(by Philipp Burckhardt)_
+-   [`4154fdc`](https://github.com/stdlib-js/stdlib/commit/4154fdcb3d19ce74a7210ddb494dd662bdb1f012) - **chore:** update examples and add keyword [(#12967)](https://github.com/stdlib-js/stdlib/pull/12967) _(by Philipp Burckhardt)_
 -   [`8879b1d`](https://github.com/stdlib-js/stdlib/commit/8879b1d32513bce3f1cc083787d3ca504f7673a4) - **docs:** tidy doc and C macro drift in `@stdlib/constants-float32` [(#12432)](https://github.com/stdlib-js/stdlib/pull/12432) _(by Philipp Burckhardt)_
 -   [`e7f93b6`](https://github.com/stdlib-js/stdlib/commit/e7f93b6d4af09ad035409619bd4c3e97b8a0800f) - **chore:** correct float64 keyword leftovers in `@stdlib/constants-float32` packages [(#11964)](https://github.com/stdlib-js/stdlib/pull/11964) _(by Philipp Burckhardt)_
 -   [`c2b92b4`](https://github.com/stdlib-js/stdlib/commit/c2b92b4e7c4840bb859808dc0dacd97833019549) - **chore:** propagate fixes to sibling packages [(#11892)](https://github.com/stdlib-js/stdlib/pull/11892) _(by Philipp Burckhardt)_
