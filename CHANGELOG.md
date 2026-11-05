@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-19)
+## Unreleased (2026-11-05)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`fb5ec21`](https://github.com/stdlib-js/stdlib/commit/fb5ec210035434f3734e3e0c16f1b9365880eefa) - add parentheses to NaN macros [(#15676)](https://github.com/stdlib-js/stdlib/pull/15676)
 -   [`d65bf73`](https://github.com/stdlib-js/stdlib/commit/d65bf7356a9f65e0e512ac1a6809e731528a09a9) - rename incorrect manifest file name in `constants/float32/max-ln` [(#10167)](https://github.com/stdlib-js/stdlib/pull/10167)
 
 </section>
@@ -34,6 +35,16 @@ This release closes the following issue:
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`fef28cc`](https://github.com/stdlib-js/stdlib/commit/fef28cc62d12992a883f8d85de099677447fe1d3) - **docs:** add missing `@see` tags [(#16474)](https://github.com/stdlib-js/stdlib/pull/16474) _(by Philipp Burckhardt)_
+-   [`03aef6e`](https://github.com/stdlib-js/stdlib/commit/03aef6e3ab00a4fc7d3791526ae9b55e3bf5dcef) - **test:** migrate `constants/float32/ln-half` to ULP-based assertions [(#16192)](https://github.com/stdlib-js/stdlib/pull/16192) _(by Athan Reines)_
+-   [`9f36f33`](https://github.com/stdlib-js/stdlib/commit/9f36f33f6f3a05630bcef1938b90f3469fd3dc81) - **test:** migrate `constants/float32/ln-sqrt-two-pi` to ULP-based assertions [(#16155)](https://github.com/stdlib-js/stdlib/pull/16155) _(by Athan Reines)_
+-   [`5e18080`](https://github.com/stdlib-js/stdlib/commit/5e18080934729610571c6eeb9c4f5f4de1b47b94) - **test:** migrate `constants/float32/pi-squared` to ULP-based assertions [(#16088)](https://github.com/stdlib-js/stdlib/pull/16088) _(by Athan Reines)_
+-   [`0ed340c`](https://github.com/stdlib-js/stdlib/commit/0ed340c2166f3b043cdd85d25ad63f255ea0cec7) - **test:** migrate `constants/float32/ln-two` to ULP-based assertions [(#16104)](https://github.com/stdlib-js/stdlib/pull/16104) _(by Athan Reines)_
+-   [`07bed02`](https://github.com/stdlib-js/stdlib/commit/07bed027eb6fc795417b23eedbde10aa9ffa1ba3) - **test:** migrate `constants/float32/ln-two-pi` to ULP-based assertions [(#16081)](https://github.com/stdlib-js/stdlib/pull/16081) _(by Philipp Burckhardt)_
+-   [`ea7863e`](https://github.com/stdlib-js/stdlib/commit/ea7863e40d091327a8d46dd43f4fc58c59b089c2) - **test:** migrate `constants/float32/half-ln-two` to ULP-based assertions [(#16071)](https://github.com/stdlib-js/stdlib/pull/16071) _(by Athan Reines)_
+-   [`3560347`](https://github.com/stdlib-js/stdlib/commit/3560347e7c8e720b4fa1fab2a97315f5ee4c188b) - **test:** migrate `constants/float32/ln-ten` to ULP-based assertions [(#16059)](https://github.com/stdlib-js/stdlib/pull/16059) _(by Philipp Burckhardt, Athan Reines)_
+-   [`fb5ec21`](https://github.com/stdlib-js/stdlib/commit/fb5ec210035434f3734e3e0c16f1b9365880eefa) - **fix:** add parentheses to NaN macros [(#15676)](https://github.com/stdlib-js/stdlib/pull/15676) _(by Karan Anand)_
 -   [`f10ea71`](https://github.com/stdlib-js/stdlib/commit/f10ea71b1b7528348cdda654baa4a7541c6a0ba2) - **chore:** add keyword [(#14976)](https://github.com/stdlib-js/stdlib/pull/14976) _(by Philipp Burckhardt)_
 -   [`a0ddbae`](https://github.com/stdlib-js/stdlib/commit/a0ddbae6d3f4bb2b9f95ff2e249202a5d3c95e82) - **docs:** fix description and add missing spaces [(#14202)](https://github.com/stdlib-js/stdlib/pull/14202) _(by Philipp Burckhardt)_
 -   [`46e0a1a`](https://github.com/stdlib-js/stdlib/commit/46e0a1a70a6d6677bc1c85fb16a5cf666880391b) - **docs:** add asm type annotations [(#13915)](https://github.com/stdlib-js/stdlib/pull/13915) _(by Philipp Burckhardt)_
@@ -58,8 +69,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 -   Shubham
 
